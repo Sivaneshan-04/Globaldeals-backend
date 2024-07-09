@@ -43,6 +43,16 @@ const userSchema = mongoose.Schema(
     isEmailVerified: {
       type: Boolean,
       default: false,
+    },visitedComp:{
+      type: Object,
+      default: {}
+    },visitedCat:{
+      type: Object,
+      default: {}
+    },
+    visitedTopDeal:{
+      type: Object,
+      default: {}
     },
   },
   {
