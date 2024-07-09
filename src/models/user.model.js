@@ -54,6 +54,18 @@ const userSchema = mongoose.Schema(
       type: Object,
       default: {}
     },
+    wishList:{
+      type: Array,
+      default: []
+    },
+    liked:{
+      type: Array,
+      default: []
+    },
+    comments:{
+      type: Array,
+      default: []
+    },
   },
   {
     timestamps: true,
